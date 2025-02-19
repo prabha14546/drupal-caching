@@ -1,0 +1,20 @@
+uuid: 98ad9d08-0d97-4556-8cfa-0da26ed99af1
+langcode: en
+status: true
+dependencies:
+  module:
+    - blockcaching
+  theme:
+    - olivero
+id: olivero_blockusercontext
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: block_user_context
+settings:
+  id: block_user_context
+  label: 'Block User Context'
+  label_display: visible
+  provider: blockcaching
+visibility: {  }
