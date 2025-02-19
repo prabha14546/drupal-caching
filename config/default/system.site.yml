@@ -2,8 +2,8 @@ _core:
   default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
 langcode: en
 uuid: c51c5b32-ae81-4a3b-86c2-fb80ace513b5
-name: Drupal
-mail: ''
+name: 'Drupal Caching'
+mail: prabhavathi.vanipenta@qed42.com
 slogan: ''
 page:
   403: ''
