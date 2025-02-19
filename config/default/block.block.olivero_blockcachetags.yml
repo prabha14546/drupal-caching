@@ -1,0 +1,20 @@
+uuid: eb959f3d-d719-4dca-8a39-58522673ffb9
+langcode: en
+status: true
+dependencies:
+  module:
+    - blockcaching
+  theme:
+    - olivero
+id: olivero_blockcachetags
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: block_cache_tags
+settings:
+  id: block_cache_tags
+  label: 'Block Cache Tags'
+  label_display: visible
+  provider: blockcaching
+visibility: {  }

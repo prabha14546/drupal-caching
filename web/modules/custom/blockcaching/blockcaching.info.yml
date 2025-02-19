@@ -1,0 +1,7 @@
+name: 'Block Caching'
+type: module
+description: 'Provides custom blocks including the latest articles block with optimized caching.'
+core_version_requirement: ^11
+package: Custom
+dependencies:
+  - drupal:node
