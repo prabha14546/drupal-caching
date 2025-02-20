@@ -9,7 +9,7 @@ dependencies:
 id: olivero_blockcachetags
 theme: olivero
 region: content
-weight: 0
+weight: -8
 provider: null
 plugin: block_cache_tags
 settings:

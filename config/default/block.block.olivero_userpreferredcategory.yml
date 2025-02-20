@@ -1,4 +1,4 @@
-uuid: 98ad9d08-0d97-4556-8cfa-0da26ed99af1
+uuid: 6916f8d5-38f5-4403-80d3-9b898868ce3f
 langcode: en
 status: true
 dependencies:
@@ -6,15 +6,15 @@ dependencies:
     - blockcaching
   theme:
     - olivero
-id: olivero_blockusercontext
+id: olivero_userpreferredcategory
 theme: olivero
 region: content
-weight: -7
+weight: -6
 provider: null
-plugin: block_user_context
+plugin: user_preferred_category_block
 settings:
-  id: block_user_context
-  label: 'Block User Context'
+  id: user_preferred_category_block
+  label: 'User Preferred Category'
   label_display: visible
   provider: blockcaching
 visibility: {  }
