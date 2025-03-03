@@ -80,6 +80,9 @@ class UserPreferredCategoryBlock extends BlockBase implements ContainerFactoryPl
     if (!$preferred_category_id) {
       return [
         '#markup' => $this->t('No preferred category selected.'),
+        '#cache' => [
+          'contexts' => ['user_preferred_category'],
+        ],
       ];
     }
 
@@ -101,7 +104,7 @@ class UserPreferredCategoryBlock extends BlockBase implements ContainerFactoryPl
         '#markup' => $this->t('No articles found for your preferred category.'),
         '#cache' => [
           'tags' => ['node_list'],
-          'contexts' => ['user', 'user_preferred_category'],
+          'contexts' => ['user_preferred_category'],
         ],
       ];
     }
@@ -118,7 +121,7 @@ class UserPreferredCategoryBlock extends BlockBase implements ContainerFactoryPl
       '#items' => $items,
       '#cache' => [
         'tags' => ['node_list'],
-        'contexts' => ['user', 'user_preferred_category'],
+        'contexts' => ['user_preferred_category'],
       ],
     ];
   }
