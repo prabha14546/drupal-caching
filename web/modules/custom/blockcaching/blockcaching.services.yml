@@ -3,4 +3,4 @@ services:
     class: Drupal\blockcaching\Cache\Context\UserPreferredCategoryCacheContext
     arguments: ['@current_user', '@entity_type.manager']
     tags:
-      - { name: cache.context, contexts: user.preferred_category }
+      - { name: cache.context }

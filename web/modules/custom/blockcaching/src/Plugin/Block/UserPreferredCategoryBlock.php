@@ -103,7 +103,6 @@ class UserPreferredCategoryBlock extends BlockBase implements ContainerFactoryPl
       return [
         '#markup' => $this->t('No articles found for your preferred category.'),
         '#cache' => [
-          'tags' => ['node_list'],
           'contexts' => ['user_preferred_category'],
         ],
       ];
@@ -120,7 +119,6 @@ class UserPreferredCategoryBlock extends BlockBase implements ContainerFactoryPl
       '#theme' => 'item_list',
       '#items' => $items,
       '#cache' => [
-        'tags' => ['node_list'],
         'contexts' => ['user_preferred_category'],
       ],
     ];
