@@ -19,6 +19,8 @@
         "drupal/core-composer-scaffold": "^11.1",
         "drupal/core-project-message": "^11.1",
         "drupal/core-recommended": "^11.1",
+        "drupal/memcache": "^2.7",
+        "drupal/purge": "^3.6",
         "drush/drush": "^13.3"
     },
     "conflict": {
